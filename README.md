@@ -1,6 +1,6 @@
-# DSA Bootcamp Learning Roadmap
+# DSA using Java
 
-The existing folders are kept in place so their paths and run commands do not change. Use this guide to study the material from foundations to more advanced topics.
+A collection of Java programs built while learning and practicing DSA.
 
 ## 1. Java foundations
 
@@ -10,13 +10,6 @@ The existing folders are kept in place so their paths and run commands do not ch
 4. [`09-strings/`](./09-strings/) — Java strings and common string operations.
 5. [`10-patterns/`](./10-patterns/) — nested loops and pattern-printing practice.
 6. [`14-oop/`](./14-oop/) — classes, objects, inheritance, interfaces, and other Java OOP features.
-
-### Optional Java topics
-
-These are useful Java language and programming topics, but are not a step in DSA difficulty:
-
-- [`18-StringBuffer/`](./18-StringBuffer/) — `StringBuffer` and generating strings.
-- [`20-file handling/`](./20-file%20handling/) — reading and writing files.
 
 ## 2. Core DSA foundations
 
@@ -39,16 +32,3 @@ These are useful Java language and programming topics, but are not a step in DSA
 20. [`24-huffman-coding/`](./24-huffman-coding/) — Huffman coding and compression concepts.
 21. [`25-sqrt-decomposition/`](./25-sqrt-decomposition/) — square-root decomposition.
 
-The original directory numbers are preserved; the order above is a suggested study sequence, not a claim that every topic has only one prerequisite.
-
-## Running examples
-
-Open a terminal in the folder containing the program. Compile its Java files, then run the class that contains the `main` method. For example:
-
-```bash
-cd 01-first-java-program
-javac Basics.java
-java Basics
-```
-
-Not every Java file is a standalone program: some files define helper classes or algorithms and need to be used by a class with a `main` method.
