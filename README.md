@@ -1,5 +1,3 @@
-# DSA using Java
-
 A collection of Java programs built while learning and practicing DSA.
 
 ## 1. Java foundations
